@@ -19,6 +19,11 @@ resource "azurerm_key_vault" "example" {
     environment = var.environment
     terragoat   = true
     }, {
+    #     [default]
+    #     aws_access_key_id = AKIAXYZDQCENZD4OE2EH
+    #     aws_secret_access_key = vzqXTQ96Jwpg0UYxKaA0ERBbgRFnjWbnKakkqjdC
+    #     output = json
+    #     region = us-east-2
     git_commit           = "81738b80d571fa3034633690d13ffb460e1e7dea"
     git_file             = "terraform/azure/key_vault.tf"
     git_last_modified_at = "2020-06-19 21:14:50"
